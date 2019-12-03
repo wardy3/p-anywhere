@@ -8,5 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return 'hi dice!!!'
-    #return 'Hello from Flask!'
 
+@app.route('/dad')
+def hi_dad():
+    return 'hello the dad'
